@@ -1,6 +1,5 @@
 [servers]
-server1 ansible_host=10.0.1.24
-server2 ansible_host=10.0.1.6
+centos ansible_host=10.52.10.148 ansible_connection=ssh ansible_ssh_user=centos ansible_ssh_private_key_file=~/.ssh/centos
 
 [servers:vars]
 user_name=dev
