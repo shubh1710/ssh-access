@@ -69,15 +69,13 @@ server2                    : ok=2    changed=2    unreachable=0    failed=0
 
 ### To check the results login into your "user_name" account and ssh into one of your servers
 ```
-[dev@ip-10-0-2-106 ~]$ ssh 10.0.1.6
-Last login: Wed May  1 15:06:34 2019 from ip-10-0-2-106.ec2.internal
+root@ubuntu-sg:~/ansible-projects/ssh-access# ssh -i ./keys/dev/id_rsa dev@10.52.10.148
+Web console: https://centos-sg:9090/ or https://10.52.10.148:9090/
 
-       __|  __|_  )
-       _|  (     /   Amazon Linux AMI
-      ___|\___|___|
-
-https://aws.amazon.com/amazon-linux-ami/2018.03-release-notes/
-[dev@ip-10-0-1-6 ~]$ 
+Last failed login: Mon Jul  5 19:25:23 UTC 2021 from 10.52.10.221 on ssh:notty
+There were 2 failed login attempts since the last successful login.
+[dev@centos-sg ~]$
+ 
 ```
 
 ## P.S.
